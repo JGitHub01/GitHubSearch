@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepositoryItem Should render the basic snapshot view 1`] = `
+<div
+  class="repository"
+  data-testid="repository-item"
+>
+  <div
+    class="repository-name"
+  >
+    <span
+      class="repository-name__label"
+    >
+      Name:
+    </span>
+    <div
+      class="repository-name__text"
+    >
+      react-tetris
+    </div>
+  </div>
+  <div
+    class="repository-description"
+  >
+    <span
+      class="repository-description__label"
+    >
+      Description:
+    </span>
+    <div
+      class="repository-description__text"
+    >
+      Use React, Redux, Immutable to code Tetris. 🎮
+    </div>
+  </div>
+</div>
+`;

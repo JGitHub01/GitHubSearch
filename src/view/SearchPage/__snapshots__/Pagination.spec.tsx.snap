@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Should render the basic snapshot view 1`] = `
+<div
+  class="pagination"
+  data-testid="pagination"
+>
+  <button
+    class="pagination-left"
+    data-testid="pagination-left"
+    disabled=""
+  >
+    &lt;
+  </button>
+  <button
+    class="pagination-page pagination-page--active"
+  >
+    1
+  </button>
+  <button
+    class="pagination-page"
+  >
+    2
+  </button>
+  <button
+    class="pagination-page"
+  >
+    3
+  </button>
+  <button
+    class="pagination-page"
+  >
+    4
+  </button>
+  <button
+    class="pagination-page"
+  >
+    5
+  </button>
+  <button
+    class="pagination-right"
+    data-testid="pagination-right"
+    disabled=""
+  >
+    &gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination Should render the snapshot view at page 3 1`] = `
+<div
+  class="pagination"
+  data-testid="pagination"
+>
+  <button
+    class="pagination-left"
+    data-testid="pagination-left"
+    disabled=""
+  >
+    &lt;
+  </button>
+  <button
+    class="pagination-page"
+  >
+    1
+  </button>
+  <button
+    class="pagination-page"
+  >
+    2
+  </button>
+  <button
+    class="pagination-page pagination-page--active"
+  >
+    3
+  </button>
+  <button
+    class="pagination-page"
+  >
+    4
+  </button>
+  <button
+    class="pagination-page"
+  >
+    5
+  </button>
+  <button
+    class="pagination-right"
+    data-testid="pagination-right"
+  >
+    &gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination Should render the snapshot view at page 7 1`] = `
+<div
+  class="pagination"
+  data-testid="pagination"
+>
+  <button
+    class="pagination-left"
+    data-testid="pagination-left"
+  >
+    &lt;
+  </button>
+  <button
+    class="pagination-page"
+  >
+    5
+  </button>
+  <button
+    class="pagination-page"
+  >
+    6
+  </button>
+  <button
+    class="pagination-page pagination-page--active"
+  >
+    7
+  </button>
+  <button
+    class="pagination-page"
+  >
+    8
+  </button>
+  <button
+    class="pagination-page"
+  >
+    9
+  </button>
+  <button
+    class="pagination-right"
+    data-testid="pagination-right"
+  >
+    &gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination Should render the snapshot view at page 10 1`] = `
+<div
+  class="pagination"
+  data-testid="pagination"
+>
+  <button
+    class="pagination-left"
+    data-testid="pagination-left"
+  >
+    &lt;
+  </button>
+  <button
+    class="pagination-page"
+  >
+    6
+  </button>
+  <button
+    class="pagination-page"
+  >
+    7
+  </button>
+  <button
+    class="pagination-page"
+  >
+    8
+  </button>
+  <button
+    class="pagination-page"
+  >
+    9
+  </button>
+  <button
+    class="pagination-page pagination-page--active"
+  >
+    10
+  </button>
+  <button
+    class="pagination-right"
+    data-testid="pagination-right"
+    disabled=""
+  >
+    &gt;
+  </button>
+</div>
+`;
+
+exports[`Pagination Should render the snapshot view of 3 visible pages with 5 total pages 1`] = `
+<div
+  class="pagination"
+  data-testid="pagination"
+>
+  <button
+    class="pagination-left"
+    data-testid="pagination-left"
+  >
+    &lt;
+  </button>
+  <button
+    class="pagination-page"
+  >
+    3
+  </button>
+  <button
+    class="pagination-page pagination-page--active"
+  >
+    4
+  </button>
+  <button
+    class="pagination-page"
+  >
+    5
+  </button>
+  <button
+    class="pagination-right"
+    data-testid="pagination-right"
+    disabled=""
+  >
+    &gt;
+  </button>
+</div>
+`;

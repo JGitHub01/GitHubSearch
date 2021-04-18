@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult Should render the basic snapshot view with no keyword 1`] = `
+<div
+  class="github-search-result"
+  data-testid="search-result"
+>
+  <div>
+    Please enter a keyword!
+  </div>
+</div>
+`;
+
+exports[`SearchResult Should render the snapshot view of failed search 1`] = `
+<div
+  class="github-search-result"
+  data-testid="search-result"
+>
+  <div>
+    Trouble search GitHub: Network failure!
+  </div>
+</div>
+`;
+
+exports[`SearchResult Should render the snapshot view of successful search 1`] = `
+<div
+  class="github-search-result"
+  data-testid="search-result"
+>
+  <div
+    class="github-search-result__list"
+  >
+    <a
+      class="detail-link"
+      href="/detail"
+    >
+      <div
+        class="repository"
+        data-testid="repository-item"
+      >
+        <div
+          class="repository-name"
+        >
+          <span
+            class="repository-name__label"
+          >
+            Name:
+          </span>
+          <div
+            class="repository-name__text"
+          >
+            Tetrio-Rank-Predictor
+          </div>
+        </div>
+        <div
+          class="repository-description"
+        >
+          <span
+            class="repository-description__label"
+          >
+            Description:
+          </span>
+          <div
+            class="repository-description__text"
+          >
+            Provides an approximate rank for Tetr.io's Tetra League based on APM, PPS, and VS-Score.
+          </div>
+        </div>
+      </div>
+    </a>
+    <a
+      class="detail-link"
+      href="/detail"
+    >
+      <div
+        class="repository"
+        data-testid="repository-item"
+      >
+        <div
+          class="repository-name"
+        >
+          <span
+            class="repository-name__label"
+          >
+            Name:
+          </span>
+          <div
+            class="repository-name__text"
+          >
+            Cooperative-Protein-Dynamics
+          </div>
+        </div>
+        <div
+          class="repository-description"
+        >
+          <span
+            class="repository-description__label"
+          >
+            Description:
+          </span>
+          <div
+            class="repository-description__text"
+          >
+            This is a simple program that maps the dynamics between LacI and TetR in a one of the first toggle switch systems created by Gardner et al (2000)
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`SearchResult Should render the snapshot view with no repository found 1`] = `
+<div
+  class="github-search-result"
+  data-testid="search-result"
+>
+  <div>
+    No repositories are found!
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchField Should render the basic snapshot view 1`] = `
+<input
+  class="github-search__keyword"
+  data-testid="search-field"
+  type="text"
+  value=""
+/>
+`;

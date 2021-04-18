@@ -1,0 +1,15 @@
+.search-app {
+  display: flex;
+  justify-content: center;
+}
+.github-search, .github-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+    @media(min-width: 639px) {
+      width: 75%;
+    }
+}

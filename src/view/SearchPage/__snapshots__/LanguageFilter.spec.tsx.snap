@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguageFilter Should render the default snapshot view 1`] = `
+<div
+  class="github-search__language"
+  data-testid="search-language"
+>
+  <label
+    for="language"
+  >
+    Language:
+  </label>
+  <select
+    data-testid="language-list"
+    name="language"
+  >
+    <option
+      value="c"
+    >
+      C
+    </option>
+    <option
+      value="c#"
+    >
+      C#
+    </option>
+    <option
+      value="java"
+    >
+      Java
+    </option>
+    <option
+      value="javascript"
+    >
+      JavaScript
+    </option>
+    <option
+      value="php"
+    >
+      PhP
+    </option>
+    <option
+      value="python"
+    >
+      Python
+    </option>
+    <option
+      value="ruby"
+    >
+      Ruby
+    </option>
+    <option
+      value="shell"
+    >
+      Shell
+    </option>
+    <option
+      value="typescript"
+    >
+      TypeScript
+    </option>
+  </select>
+</div>
+`;
