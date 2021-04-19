@@ -51,6 +51,9 @@ $resultBackgroundColor: #F0F8FF;
 
       .detail-link {
         text-decoration: none;
+        &:hover {
+          background-color: darken($resultBackgroundColor, 10%);
+        }
       }
       .repository {
         color: black;
@@ -58,12 +61,9 @@ $resultBackgroundColor: #F0F8FF;
         flex-direction: row;
         justify-content: space-around;
         border-bottom: solid 1px #A9A9A9;
-        margin-bottom: 8px;
+        margin-top: 8px;
         padding: 4px 8px;
 
-        &:hover {
-          background-color: darken($resultBackgroundColor, 10%);
-        }
         &-description,
         &-name {
           display: flex;

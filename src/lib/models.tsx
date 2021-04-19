@@ -19,6 +19,15 @@ export interface IRepositoryOwner {
   url: string,
   html_url: string
 }
+interface IMatch {
+  text: string
+  indices: number[]
+}
+interface ITextMatch {
+  property: string
+  fragment: string
+  matches: IMatch[]
+}
 export interface IRepository {
   id: number,
   name: string,
@@ -29,6 +38,7 @@ export interface IRepository {
   html_url: string,
   stargazers_count: number,
   language: string
+  text_matches: ITextMatch[]
 }
 export interface ISearchResult {
   total_count: number
