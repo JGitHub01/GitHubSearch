@@ -7,6 +7,7 @@ A simple react app that uses GitHub repository search API to find interesting Gi
 - sort by best match and stars
 - results pagination
 - search and detail pages routing
+- keyword highlight
 
 ## App Build
 - npm install

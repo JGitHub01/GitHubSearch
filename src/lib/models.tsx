@@ -38,7 +38,7 @@ export interface IRepository {
   html_url: string,
   stargazers_count: number,
   language: string
-  text_matches: ITextMatch[]
+  text_matches?: ITextMatch[]
 }
 export interface ISearchResult {
   total_count: number

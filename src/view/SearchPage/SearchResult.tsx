@@ -24,7 +24,7 @@ export default function SearchResult(props: ISearchResultProps) {
               to={{ pathname: '/detail', state: { ...r } }}
               key={idx}
             >
-              <RepositoryItem name={r.name} description={r.description} />
+              <RepositoryItem {...r} />
             </Link>)
           }
         </div> :

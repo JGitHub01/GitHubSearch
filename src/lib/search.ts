@@ -44,7 +44,7 @@ export default async function search(query: ISearchQuery): Promise<ISearchResult
 }
 
 export function keywordIndices(repo: IRepository) {
-  const indices = repo.text_matches.reduce((indices: {[prop: string]: Array<number[]>}, tm) => {
+  const indices = repo.text_matches?.reduce((indices: {[prop: string]: Array<number[]>}, tm) => {
     if (tm.property === "name" || tm.property === "description") {
       const startIdx = repo[tm.property].indexOf(tm.fragment);
       tm.matches.forEach(m => {
